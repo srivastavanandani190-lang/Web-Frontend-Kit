@@ -20,11 +20,10 @@
 <div align="center">
 
 <!-- Frontend Banner -->
-<!-- If you want a custom banner, place it in /assets/banner.png -->
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/frontend/frontend-original.svg" width="600" alt="Frontend banner" />
+<!-- Using a stable GitHub-friendly banner -->
+<img src="https://user-images.githubusercontent.com/99164202/206873499-2462c3d0-7c21-40d0-b5da-9a3a5b3c9378.png" width="700" alt="Frontend Banner" style="border-radius:12px; box-shadow: 0px 4px 15px rgba(0,0,0,0.3);" />
 
 </div>
-
 
 # 🚀 About This Repository
 
