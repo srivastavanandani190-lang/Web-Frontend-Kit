@@ -181,8 +181,7 @@ This repo contains **notes, concepts, micro-projects, visuals, animations, and U
 # 🎉 Thank You for Visiting!
 
 <p align="center">
-  <!-- small thank-you image from GitHub Explore as fallback -->
-  <img src="https://raw.githubusercontent.com/github/explore/main/topics/thank-you/thank-you.png" width="320" alt="Thank you" />
+  <img src="https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake.svg" width="500" alt="Thank you animation" />
 </p>
 
 <p align="center"><b>⭐ If you like this repository, consider starring it!</b></p>
