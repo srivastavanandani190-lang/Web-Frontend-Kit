@@ -5,36 +5,9 @@
   <img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=700&size=32&pause=1000&color=39FFEE&center=true&vCenter=true&width=1000&height=90&lines=Welcome+to+My+Frontend+Universe!;HTML+CSS+JavaScript+React+Projects;Learning+%F0%9F%8C%B0+Building+%E2%9A%92%EF%B8%8F+Growing+%F0%9F%9A%80" alt="Welcome Banner" />
 </p>
 
----
-
-<!-- ====== Instructions: place custom images in /assets if you want ====== -->
-> 💡 *Tip:* If you'd like custom banners or GIFs, add them to an `assets/` folder at the repo root with these exact names:
->
-> - `assets/banner.png` (or `.gif`)
-> - `assets/roadmap.png`
-> - `assets/projects.png`
->
-> The README below will use those local files when present. If you prefer not to add assets, the README falls back to stable GitHub-hosted images.
-
----
-<div align="center">
-
-<!-- Frontend Banner -->
-<!-- Add your banner GIF/PNG in your repo at /assets/banner.gif -->
-<img 
-    src="./assets/banner.gif" 
-    alt="Frontend Banner" 
-    width="700" 
-    style="border-radius:12px; box-shadow: 0 8px 20px rgba(0,0,0,0.3); max-width:100%; height:auto;" 
-/>
-
-</div>
-
-
-
-
 # 🚀 About This Repository
-
+Web-Frontend-Kit is a curated collection of essential frontend tools, templates, components, and best practices to kickstart modern web development.
+It includes reusable UI elements, optimized project structures, and ready-to-use setups designed to help developers build fast, responsive, and visually polished web interfaces.
 <p align="center">
   <!-- small icon from GitHub Explore (stable) -->
   <img src="https://raw.githubusercontent.com/github/explore/main/topics/web/web.png" width="90" alt="Web Icon" />
