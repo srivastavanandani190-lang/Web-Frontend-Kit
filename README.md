@@ -1,15 +1,29 @@
-# Web-Frontend-Kit
-Web-Frontend-Kit is a curated collection of essential frontend tools, templates, components, and best practices to kickstart modern web development. It includes reusable UI elements, optimized project structures, and ready-to-use setups designed to help developers build fast, responsive, and visually polished web interfaces.
 # 🌐✨ Web Frontend Kit — My Frontend Learning Journey
 
+<!-- ====== Header typing SVG (stable) ====== -->
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=700&size=32&pause=1000&color=39FFEE&center=true&vCenter=true&width=1000&height=90&lines=Welcome+to+My+Frontend+Universe!;HTML+CSS+JavaScript+React+Projects;Learning+🌱+Building+⚒️+Growing+🚀" />
+  <img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=700&size=32&pause=1000&color=39FFEE&center=true&vCenter=true&width=1000&height=90&lines=Welcome+to+My+Frontend+Universe!;HTML+CSS+JavaScript+React+Projects;Learning+%F0%9F%8C%B0+Building+%E2%9A%92%EF%B8%8F+Growing+%F0%9F%9A%80" alt="Welcome Banner" />
 </p>
 
 ---
 
+<!-- ====== Instructions: place custom images in /assets if you want ====== -->
+> 💡 *Tip:* If you'd like custom banners or GIFs, add them to an `assets/` folder at the repo root with these exact names:
+>
+> - `assets/banner.png` (or `.gif`)
+> - `assets/roadmap.png`
+> - `assets/projects.png`
+>
+> The README below will use those local files when present. If you prefer not to add assets, the README falls back to stable GitHub-hosted images.
+
+---
+
 <div align="center">
-  <img src="https://i.imgur.com/o7USFvC.gif" width="600" alt="Frontend Banner"/>
+
+<!-- Use local asset if present; otherwise use GitHub-hosted fallback -->
+<!-- GitHub strips JS attributes like onerror, so we provide a direct stable external image for reliability -->
+<img src="https://raw.githubusercontent.com/github/explore/main/topics/frontend/frontend.png" width="600" alt="Frontend banner (fallback)" />
+
 </div>
 
 ---
@@ -17,18 +31,19 @@ Web-Frontend-Kit is a curated collection of essential frontend tools, templates,
 # 🚀 About This Repository
 
 <p align="center">
-  <img src="https://i.imgur.com/kFeY7Yx.gif" width="90" />
+  <!-- small icon from GitHub Explore (stable) -->
+  <img src="https://raw.githubusercontent.com/github/explore/main/topics/web/web.png" width="90" alt="Web Icon" />
 </p>
 
-**✨ Web Frontend Kit** is a **creative and animated journey** through the world of **Frontend Development**, covering:
+**✨ Web Frontend Kit** is a creative and animated journey through the world of **Frontend Development**, covering:
 
-💠 **HTML** – Base of the Web  
-💠 **CSS** – Colors, Layouts & Animations  
-💠 **JavaScript** – Logic, DOM & Interactivity  
-💠 **React JS** – Components, Hooks & UI building  
-💠 **Mini UI Projects**  
-💠 **Reusable Components**  
-💠 **Practice playground**  
+- 💠 **HTML** – Base of the Web  
+- 💠 **CSS** – Colors, Layouts & Animations  
+- 💠 **JavaScript** – Logic, DOM & Interactivity  
+- 💠 **React JS** – Components, Hooks & UI building  
+- 💠 **Mini UI Projects**  
+- 💠 **Reusable Components**  
+- 💠 **Practice playground**  
 
 This repo contains **notes, concepts, micro-projects, visuals, animations, and UI experiments**.
 
@@ -37,7 +52,8 @@ This repo contains **notes, concepts, micro-projects, visuals, animations, and U
 # 🎯 Learning Roadmap
 
 <div align="center">
-  <img src="https://i.imgur.com/b7zJX2r.gif" width="350"/>
+  <!-- Roadmap visual (stable GitHub image) -->
+  <img src="https://raw.githubusercontent.com/github/explore/main/topics/css/css.png" width="320" alt="CSS Roadmap" />
 </div>
 
 ---
@@ -73,7 +89,7 @@ This repo contains **notes, concepts, micro-projects, visuals, animations, and U
 
 ## ⚛️ 4. React JS – Component-Based Web Apps
 - Components & Props  
-- Hooks (useState, useEffect)  
+- Hooks (`useState`, `useEffect`)  
 - React Router  
 - Custom hooks  
 - Reusable UI components  
@@ -84,7 +100,8 @@ This repo contains **notes, concepts, micro-projects, visuals, animations, and U
 # 🧩 Projects Included
 
 <div align="center">
-  <img src="https://i.imgur.com/taOePtp.gif" width="350"/>
+  <!-- Projects visual (stable GitHub image) -->
+  <img src="https://raw.githubusercontent.com/github/explore/main/topics/react/react.png" width="320" alt="React Projects" />
 </div>
 
 ---
@@ -137,7 +154,7 @@ This repo contains **notes, concepts, micro-projects, visuals, animations, and U
 │   └── 🌐 apps/
 │
 └── 📦 Assets/
-    ├── 🎨 images/
+    ├── 🎨 images/        <- place banner.png, roadmap.png, projects.png here
     └── 📹 gifs/
 ```
 
@@ -146,7 +163,8 @@ This repo contains **notes, concepts, micro-projects, visuals, animations, and U
 # 🌟 Tech Stack
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=html,css,js,react,github,vscode" />
+  <!-- skill icons from skillicons (stable) -->
+  <img src="https://skillicons.dev/icons?i=html,css,js,react,github,vscode" alt="Tech icons" />
 </p>
 
 ---
@@ -154,8 +172,8 @@ This repo contains **notes, concepts, micro-projects, visuals, animations, and U
 # 🪄 Animated Badges
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Frontend%20Developer-39FFEE?style=for-the-badge&logo=webflow&logoColor=black" />
-  <img src="https://img.shields.io/badge/Learning%20Daily-8A2BE2?style=for-the-badge&logo=readme&logoColor=white" />
+  <img src="https://img.shields.io/badge/Frontend%20Developer-39FFEE?style=for-the-badge&logo=webflow&logoColor=black" alt="Frontend Dev Badge" />
+  <img src="https://img.shields.io/badge/Learning%20Daily-8A2BE2?style=for-the-badge&logo=readme&logoColor=white" alt="Learning Daily Badge" />
 </p>
 
 ---
@@ -163,7 +181,8 @@ This repo contains **notes, concepts, micro-projects, visuals, animations, and U
 # 🎉 Thank You for Visiting!
 
 <p align="center">
-  <img src="https://i.imgur.com/gcQF3jX.gif" width="400"/>
+  <!-- small thank-you image from GitHub Explore as fallback -->
+  <img src="https://raw.githubusercontent.com/github/explore/main/topics/thank-you/thank-you.png" width="320" alt="Thank you" />
 </p>
 
 <p align="center"><b>⭐ If you like this repository, consider starring it!</b></p>
