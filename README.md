@@ -20,10 +20,16 @@
 <div align="center">
 
 <!-- Frontend Banner -->
-<!-- Using a stable GitHub-friendly banner -->
-<img src="https://user-images.githubusercontent.com/99164202/206873499-2462c3d0-7c21-40d0-b5da-9a3a5b3c9378.png" width="700" alt="Frontend Banner" style="border-radius:12px; box-shadow: 0px 4px 15px rgba(0,0,0,0.3);" />
+<!-- Stable, GitHub-friendly, visually appealing banner -->
+<img 
+    src="https://raw.githubusercontent.com/abhisheknaiidu/abhisheknaiidu/main/assets/animated-frontend.gif" 
+    alt="Frontend Banner" 
+    width="700" 
+    style="border-radius:12px; box-shadow: 0 8px 20px rgba(0,0,0,0.3); max-width:100%; height:auto;" 
+/>
 
 </div>
+
 
 # 🚀 About This Repository
 
