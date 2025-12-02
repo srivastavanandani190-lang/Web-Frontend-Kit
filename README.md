@@ -3,74 +3,167 @@ Web-Frontend-Kit is a curated collection of essential frontend tools, templates,
 # 🌐✨ Web Frontend Kit — My Frontend Learning Journey
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=28&pause=1000&color=00FFFF&center=true&vCenter=true&width=900&height=80&lines=Welcome+to+My+Frontend+Universe!;HTML+CSS+JavaScript+React+Projects;Learning+%7C+Building+%7C+Growing" />
+  <img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=700&size=32&pause=1000&color=39FFEE&center=true&vCenter=true&width=1000&height=90&lines=Welcome+to+My+Frontend+Universe!;HTML+CSS+JavaScript+React+Projects;Learning+🌱+Building+⚒️+Growing+🚀" />
 </p>
 
 ---
 
-## 🚀 About This Repository
-
-**Web Frontend Kit** is my complete **Frontend Development learning journey**, covering:
-
-- 🌐 **HTML** – Structure of webpages  
-- 🎨 **CSS** – Styling & animations  
-- ⚡ **JavaScript** – Interactivity  
-- ⚛️ **React JS** – Modern, component-based development  
-- 🧩 **Mini Projects**  
-- 💼 **Practice components**  
-- 🎯 **Hands-On UI building**  
-
-This repo contains notes, small projects, experiments, and UI practice.
+<div align="center">
+  <img src="https://i.imgur.com/o7USFvC.gif" width="600" alt="Frontend Banner"/>
+</div>
 
 ---
 
-## 🧭 Learning Roadmap
+# 🚀 About This Repository
 
-### 📌 1. **HTML – Foundation of Web**
+<p align="center">
+  <img src="https://i.imgur.com/kFeY7Yx.gif" width="90" />
+</p>
+
+**✨ Web Frontend Kit** is a **creative and animated journey** through the world of **Frontend Development**, covering:
+
+💠 **HTML** – Base of the Web  
+💠 **CSS** – Colors, Layouts & Animations  
+💠 **JavaScript** – Logic, DOM & Interactivity  
+💠 **React JS** – Components, Hooks & UI building  
+💠 **Mini UI Projects**  
+💠 **Reusable Components**  
+💠 **Practice playground**  
+
+This repo contains **notes, concepts, micro-projects, visuals, animations, and UI experiments**.
+
+---
+
+# 🎯 Learning Roadmap
+
+<div align="center">
+  <img src="https://i.imgur.com/b7zJX2r.gif" width="350"/>
+</div>
+
+---
+
+## 📌 1. HTML – Foundation of Web
 - Semantic tags  
-- Forms, tables, multimedia  
-- Accessibility basics  
+- Forms, tables & embedding  
+- SEO basics  
+- Accessibility  
 
-### 🎨 2. **CSS – Styling & Layout**
+---
+
+## 🎨 2. CSS – Styling & Animation Heaven
 - Flexbox / Grid  
-- Responsive design  
-- Animations & transitions  
-- UI components  
+- Responsive layouts  
+- Hover effects  
+- Keyframe animations  
+- Glassmorphism  
+- Neumorphism  
+- Gradients  
 
-### ⚡ 3. **JavaScript – Logic & Interaction**
+---
+
+## ⚡ 3. JavaScript – Logic & Interaction
 - DOM manipulation  
-- Event handling  
-- ES6+ features  
-- APIs & async  
+- Events  
+- ES6+ modern syntax  
+- Fetch & APIs  
+- Async / await  
+- Dynamic UI updates  
 
-### ⚛️ 4. **React JS – Modern UI**
+---
+
+## ⚛️ 4. React JS – Component-Based Web Apps
 - Components & Props  
 - Hooks (useState, useEffect)  
-- Routing & state  
+- React Router  
+- Custom hooks  
 - Reusable UI components  
+- State management basics  
 
 ---
 
-## 🧩 Projects Included
+# 🧩 Projects Included
 
-### 🔹 **HTML & CSS Projects**
+<div align="center">
+  <img src="https://i.imgur.com/taOePtp.gif" width="350"/>
+</div>
+
+---
+
+### 🔹 HTML & CSS Mini Projects
 - Modern Landing Page  
-- Responsive Portfolio Section  
-- Animated UI components  
+- Animated Buttons  
+- Portfolio Section  
+- Glowing Cards  
+- Loading Animations  
 
-### 🔹 **JavaScript Projects**
+### 🔹 JavaScript Projects
 - To-Do App  
 - Counter App  
-- Theme Switcher  
+- Theme Switcher (Dark/Light)  
+- Stopwatch  
 - Calculator  
 
-### 🔹 **React Projects**
+### 🔹 React Projects
 - Notes App  
 - Weather App  
-- Component Library  
-- Mini interactive apps  
+- Component Library UI  
+- Mini Interactive Apps  
 
 ---
 
-## 📁 Folder Structure
+# 📁 Folder Structure
 
+```
+📦 Web-Frontend-Kit
+│
+├── 📂 HTML/
+│   ├── 📝 basics/
+│   ├── 🎯 forms/
+│   └── 🔖 semantic/
+│
+├── 🎨 CSS/
+│   ├── 💠 animations/
+│   ├── 🪟 layouts/
+│   └── 🌈 components/
+│
+├── ⚡ JavaScript/
+│   ├── 🚀 projects/
+│   ├── 🔧 utilities/
+│   └── 🧠 concepts/
+│
+├── ⚛️ React/
+│   ├── 📘 components/
+│   ├── 🧩 hooks/
+│   └── 🌐 apps/
+│
+└── 📦 Assets/
+    ├── 🎨 images/
+    └── 📹 gifs/
+```
+
+---
+
+# 🌟 Tech Stack
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=html,css,js,react,github,vscode" />
+</p>
+
+---
+
+# 🪄 Animated Badges
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Frontend%20Developer-39FFEE?style=for-the-badge&logo=webflow&logoColor=black" />
+  <img src="https://img.shields.io/badge/Learning%20Daily-8A2BE2?style=for-the-badge&logo=readme&logoColor=white" />
+</p>
+
+---
+
+# 🎉 Thank You for Visiting!
+
+<p align="center">
+  <img src="https://i.imgur.com/gcQF3jX.gif" width="400"/>
+</p>
+
+<p align="center"><b>⭐ If you like this repository, consider starring it!</b></p>
