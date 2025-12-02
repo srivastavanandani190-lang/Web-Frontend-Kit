@@ -17,16 +17,14 @@
 > The README below will use those local files when present. If you prefer not to add assets, the README falls back to stable GitHub-hosted images.
 
 ---
-
 <div align="center">
 
-<!-- Use local asset if present; otherwise use GitHub-hosted fallback -->
-<!-- GitHub strips JS attributes like onerror, so we provide a direct stable external image for reliability -->
-<img src="https://raw.githubusercontent.com/github/explore/main/topics/frontend/frontend.png" width="600" alt="Frontend banner (fallback)" />
+<!-- Frontend Banner -->
+<!-- If you want a custom banner, place it in /assets/banner.png -->
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/frontend/frontend-original.svg" width="600" alt="Frontend banner" />
 
 </div>
 
----
 
 # 🚀 About This Repository
 
