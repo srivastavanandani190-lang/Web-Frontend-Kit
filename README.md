@@ -19,18 +19,18 @@
 ---
 <div align="center">
 
-<div align="center">
-
 <!-- Frontend Banner -->
-<!-- Stable, GitHub-friendly, visually appealing banner -->
+<!-- Add your banner GIF/PNG in your repo at /assets/banner.gif -->
 <img 
-    src="https://raw.githubusercontent.com/abhisheknaiidu/abhisheknaiidu/main/assets/animated-frontend.gif" 
+    src="./assets/banner.gif" 
     alt="Frontend Banner" 
     width="700" 
     style="border-radius:12px; box-shadow: 0 8px 20px rgba(0,0,0,0.3); max-width:100%; height:auto;" 
 />
 
 </div>
+
+
 
 
 # 🚀 About This Repository
