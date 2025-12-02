@@ -1,0 +1,32 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(229, 235, 238);
+    /* font-size: larger;
+    justify-content: center;
+    align-items: center; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr  ;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    /* repeat(8,1fr) */
+    background-color: rgb(60, 39, 12);
+
+    padding: 10px;
+    height: 800px;
+    width: 800px;
+}
+.first{
+    background-color: black;
+}
+.second{
+    background-color: aliceblue;
+}

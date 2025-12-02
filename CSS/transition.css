@@ -1,0 +1,36 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+height: 100vh;
+background-color: black;
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 10px;
+perspective: 800px;/* 3d(depth) in visualise way-distance between item and observer */
+}
+.box{
+height: 150px;
+width: 150px;
+background-color: rgb(237, 238, 150);
+cursor: pointer;
+/* transition-property: background-color;
+transition-property: width;  triggered action needed for change to be observed*/
+transition-property: all 3s;
+/* transition-timing-function: linear;
+transition-duration: 2s; */
+/* transform: translate(200px,200px); */
+/* transform: rotate(30deg); */
+/* transform: skew(20deg); */
+}
+.box:hover{
+    /* background-color: rgb(53, 253, 200);
+    width: 300px; 
+    transform: scale(2); */
+    /* transform: translateY(100px); */
+    /* transform: translateZ(200px); */
+    transform: rotateX(60deg);
+}
