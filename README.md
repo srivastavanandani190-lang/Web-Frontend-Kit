@@ -180,9 +180,7 @@ This repo contains **notes, concepts, micro-projects, visuals, animations, and U
 
 # 🎉 Thank You for Visiting!
 
-<p align="center">
-  <img src="https://media.giphy.com/media/MDJ9IbxxvDUQM/giphy.gif" width="300" alt="Thank you" />
-</p>
+
 
 
 <p align="center"><b>⭐ If you like this repository, consider starring it!</b></p>
