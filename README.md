@@ -19,6 +19,8 @@
 ---
 <div align="center">
 
+<div align="center">
+
 <!-- Frontend Banner -->
 <!-- Stable, GitHub-friendly, visually appealing banner -->
 <img 
