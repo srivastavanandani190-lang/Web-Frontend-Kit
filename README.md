@@ -1,156 +1,154 @@
-# 🌐✨ Web Frontend Kit — A Creative Journey Into the Web Universe
+<!-- 🌑 DARK MODE | CYBERPUNK THEME | WEB FRONTEND KIT -->
 
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=700&size=30&pause=1200&color=00F5FF&center=true&vCenter=true&width=1000&height=90&lines=Web+Frontend+Kit+🚀;A+Magical+Journey+into+HTML+CSS+JS+React;Design+%7C+Animate+%7C+Build+%7C+Create" />
-</p>
+<div align="center">
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/github/explore/main/topics/web/web.png" width="95" />
-</p>
+# 🌌 **Web Frontend Kit — Dark Mode Edition**
+
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=30&pause=1200&color=0FF4F7&center=true&vCenter=true&width=1000&height=90&lines=Web+Frontend+Kit+%E2%9A%A1;Cyberpunk+Frontend+Universe;HTML+CSS+JS+React+Mastery" />
+
+<img src="https://raw.githubusercontent.com/github/explore/main/topics/web/web.png" width="95" />
 
 ---
 
-# 💫 About This Repository
+</div>
 
-**Web-Frontend-Kit** is not just a repository—  
-it's a **creative hub**, a **learning vault**, and a **playground** for turning ideas into **beautiful web experiences**.
+# 🖤 **About This Repository**
 
-This repo contains:
+**Web-Frontend-Kit** is a **dark-themed, neon-inspired** collection of everything you need to build **modern, animated, stylish, and responsive** frontend experiences.
 
-- 🎯 Learning Notes  
-- 📘 Concepts with Examples  
-- 🎨 Creative UI Components  
-- ⚡ Mini & Major Projects  
-- ✨ Animations, Effects, Experiments  
-- ⚛️ React Apps  
+This repo includes:
+
+- 🔥 Notes & concepts  
+- 🎨 Stylish UI components  
+- 🌑 Dark themed animations  
+- ⚛️ React apps  
+- ⚡ JavaScript interactive projects  
 - 🧪 Practice playground  
 
 ---
 
-# 🪄 Animated Introduction Banner
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/abhisheknaiidu/abhisheknaiidu/master/code.gif" width="650" alt="Coding Animation" />
-</p>
+<div align="center">
+  <img src="https://i.giphy.com/media/hqU2KkjW5bE2v2Z7QO/giphy.gif" width="600" />
+</div>
 
 ---
 
-# 🎯 Learning Roadmap — Follow Your Path
+# 🚀 **Learning Roadmap (Dark Edition)**
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/github/explore/main/topics/javascript/javascript.png" width="250" />
-</p>
-
----
-
-## 🌱 1. HTML – The Roots of the Web  
-- SEO-friendly semantic structure  
-- Forms, tables, embeds  
-- Accessible markup  
-- Document structure mastery  
+<div align="center">
+  <img src="https://raw.githubusercontent.com/github/explore/main/topics/javascript/javascript.png" width="200"/>
+</div>
 
 ---
 
-## 🎨 2. CSS – Make It Beautiful  
-- Flexbox / Grid  
-- Custom animations  
-- Glassmorphism & Neumorphism  
-- Gradient Art  
-- Responsive units  
-- UI effects  
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/github/explore/main/topics/css/css.png" width="220" />
-</p>
+## 🌑 **1. HTML — Skeleton of the Web**  
+- Semantic dark-themed structure  
+- SEO-friendly markup  
+- Forms & interactive elements  
+- Accessibility basics  
 
 ---
 
-## ⚡ 3. JavaScript – Brain of the Web  
-- DOM mastery  
-- ES6+ advanced syntax  
-- Async programming  
-- Fetch API  
-- Event-driven logic  
-- Data handling  
+## 🎨 **2. CSS — Neon Design Power**  
+- Flexbox / Grid layouts  
+- Neon glow effects  
+- Dark cards & glassmorphism  
+- Gradients + shadows  
+- Responsive designs  
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/github/explore/main/topics/css/css.png" width="200"/>
+</div>
 
 ---
 
-## ⚛️ 4. React – Build Interactive Universes  
+## ⚡ **3. JavaScript — Dynamic Brains**  
+- DOM manipulation  
+- ES6+ modern concepts  
+- API fetching  
+- Async/Await  
+- Event-based interactions  
+
+---
+
+## ⚛️ **4. React — Dark UI Web Apps**  
 - Components & props  
-- Hooks (useState, useEffect)  
+- Hooks (`useState`, `useEffect`)  
 - Routing  
-- Custom hooks  
-- UI libraries  
-- Small-to-large React apps  
+- Custom UI logic  
+- Reusable component library  
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/github/explore/main/topics/react/react.png" width="220" />
-</p>
+<div align="center">
+  <img src="https://raw.githubusercontent.com/github/explore/main/topics/react/react.png" width="200"/>
+</div>
 
 ---
 
-# 🧩 Projects You Will Find Here
+# 🧩 **Projects Inside**
 
-### ✨ HTML & CSS Projects
-- Animated landing pages  
-- Glow cards  
-- Creative buttons  
-- Portfolio blocks  
+### ✨ **HTML + CSS (Dark UI)**  
+- Neon landing page  
+- Dark glowing cards  
+- Animated buttons  
+- Cyberpunk portfolio  
 - Loaders & spinners  
 
-### ⚡ JavaScript Projects
-- To-do app  
+### ⚡ **JavaScript Projects**  
+- To-Do App  
 - Counter  
-- Weather Fetcher  
 - Stopwatch  
 - Calculator  
+- Theme Switcher (Dark/Light)  
 
-### ⚛️ React Apps
+### ⚛️ **React Apps**  
 - Notes app  
 - Weather app  
-- Mini interactive tools  
-- UI components  
+- Interactive widgets  
+- Custom components  
 
 ---
 
 ---
 
-# 🌟 Tech Stack
+# 🌟 **Tech Stack (Neon Icons)**
 
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=html,css,js,react,vscode,github,bootstrap,tailwind" />
-</p>
-
----
-
-# 🏆 Special Animated Badges
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Frontend%20Developer-00F5FF?style=for-the-badge&logo=webflow&logoColor=black" />
-  <img src="https://img.shields.io/badge/Always%20Learning-9D00FF?style=for-the-badge&logo=readme&logoColor=white" />
-  <img src="https://img.shields.io/badge/Creative%20Coder-FF4EC7?style=for-the-badge&logo=sparkpost&logoColor=white" />
-</p>
+<div align="center">
+  <img src="https://skillicons.dev/icons?i=html,css,js,react,github,vscode,tailwind,bootstrap" />
+</div>
 
 ---
 
-# ✨ Animated Quote to Inspire You
+# 🏆 **Dark Mode Badges**
 
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=600&size=22&pause=1300&color=F700FF&center=true&vCenter=true&width=800&height=90&lines=Code+is+Art.;Design+is+Emotion.;Frontend+is+Magic.;Create+Experiences%2C+Not+Just+Webpages." />
-</p>
+<div align="center">
+
+<img src="https://img.shields.io/badge/Cyberpunk%20Frontend-00FFFF?style=for-the-badge&logo=webflow&logoColor=black" />
+<img src="https://img.shields.io/badge/Dark%20Theme%20Lover-8A2BE2?style=for-the-badge&logo=github&logoColor=white" />
+<img src="https://img.shields.io/badge/Creative%20Coder-FF00FF?style=for-the-badge&logo=sparkpost&logoColor=white" />
+
+</div>
 
 ---
 
-# 🎉 Thanks for Stopping By!
+# ✨ **Neon Quote**
 
-<p align="center">
-  <b>⭐ If you find this repo valuable, show some love by starring it!</b>
-</p>
+<div align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1400&color=00F9FF&center=true&vCenter=true&width=800&lines=In+the+dark%2C+code+shines+brighter.;Neon+UI+is+the+future.;Create.+Design.+Inspire." />
+</div>
 
-<p align="center">
-  <img src="https://media.giphy.com/media/QvpqTCiECz0Ck/giphy.gif" width="260" />
-</p>
+---
+
+# 🤍 **Thanks for Visiting**
+
+<div align="center">
+  <b>⭐ Star this repo if you love the dark theme!</b>
+</div>
+
+<div align="center">
+  <img src="https://i.giphy.com/media/3o7TKMt1VVNkHV2PaE/giphy.webp" width="260" />
+</div>
 
 
-# 📁 Folder Structure
+
+# 📁 **Folder Structure**
 
