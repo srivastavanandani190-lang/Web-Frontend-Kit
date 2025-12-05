@@ -75,15 +75,6 @@ This repo contains **notes, concepts, micro-projects, visuals, animations, and U
 
 ---
 
-# 🧩 Projects Included
-
-<div align="center">
-  <!-- Projects visual (stable GitHub image) -->
-  <img src="https://raw.githubusercontent.com/github/explore/main/topics/react/react.png" width="320" alt="React Projects" />
-</div>
-
----
-
 ### 🔹 HTML & CSS Mini Projects
 - Modern Landing Page  
 - Animated Buttons  
