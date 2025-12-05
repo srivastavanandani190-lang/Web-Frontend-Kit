@@ -118,18 +118,6 @@ It includes reusable UI elements, optimized project structures, and ready-to-use
 
 ---
 
-# 🧩 **Full Stack Project Ideas**
-
-- 📝 MERN Notes App  
-- 🎞 Movie App with API  
-- 🛒 E-commerce Store  
-- 👤 Authentication System  
-- 🌦 Weather App  
-- 📚 Blog with Admin Panel  
-- 💬 Chat Application  
-
----
-
 # 🎯 **Final Goal: Become a Full Stack Developer!**
 
 <p align="center">
