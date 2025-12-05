@@ -12,7 +12,6 @@ It includes reusable UI elements, optimized project structures, and ready-to-use
   <!-- small icon from GitHub Explore (stable) -->
   <img src="https://raw.githubusercontent.com/github/explore/main/topics/web/web.png" width="90" alt="Web Icon" />
 </p>
----
 
 # 🚀 Full Stack Development Roadmap  
 
