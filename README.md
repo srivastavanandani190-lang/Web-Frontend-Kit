@@ -29,10 +29,142 @@ This repo contains **notes, concepts, micro-projects, visuals, animations, and U
 
 # 🎯 Learning Roadmap
 
-<div align="center">
-  <!-- Roadmap visual (stable GitHub image) -->
-  <img src="https://raw.githubusercontent.com/github/explore/main/topics/css/css.png" width="320" alt="CSS Roadmap" />
-</div>
+# 🚀 Full Stack Development Roadmap (App-Logo Style)
+
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Poppins&size=30&weight=700&pause=1200&color=00F5FF&center=true&vCenter=true&width=900&height=80&lines=Full+Stack+Developer+Roadmap;Frontend+🔥+Backend+⚙️+Database+🗄️+DevOps+🚀" />
+</p>
+
+---
+
+# 🧭 **1. Internet & Basic Foundations**
+
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=git,github,linux,bash" height="55" />  
+</p>
+
+**Learn:**
+- How the internet works  
+- HTTP / HTTPS  
+- Git & GitHub  
+- Terminal basics  
+- Package managers (npm, yarn)
+
+---
+
+# 🎨 **2. Frontend Development (UI Layer)**
+
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=html,css,js,bootstrap,tailwind" height="55" />
+</p>
+
+## 📌 Core Frontend
+- HTML5  
+- CSS3  
+- JavaScript ES6+  
+
+## 🎨 Styling Frameworks  
+- Tailwind CSS  
+- Bootstrap  
+- Sass  
+
+---
+
+# ⚛️ **3. Frontend Frameworks**
+
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=react,redux,nextjs,vue" height="55" />
+</p>
+
+- React JS  
+- Redux / Zustand  
+- Next.js  
+- Vue (optional)
+
+---
+
+# ⚙️ **4. Backend Development (Server Side)**
+
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=nodejs,express,java,spring,python,fastapi" height="55" />
+</p>
+
+## 🚀 Choose One Backend Path:
+### **Node.js + Express** (Most popular)  
+### **Java + Spring Boot**  
+### **Python + Django / FastAPI**
+
+**Learn Essentials:**
+- REST APIs  
+- Authentication (JWT, OAuth)  
+- MVC Pattern  
+- Middleware  
+- API Security  
+
+---
+
+# 🗄️ **5. Databases (Storage Layer)**
+
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=mysql,postgres,mongodb,sqlite" height="55" />
+</p>
+
+## 📌 Learn:
+- SQL basics  
+- Normalization  
+- ORM (Mongoose, Prisma, Hibernate)  
+- Queries & indexing  
+
+---
+
+# ☁️ **6. DevOps & Deployment**
+
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=docker,postman,vercel,netlify,aws,gitlab" height="55" />
+</p>
+
+## Learn:
+- Docker  
+- CI/CD  
+- Hosting platforms  
+- API testing (Postman)  
+
+---
+
+# 📱 **7. Optional + Extra Power Skills**
+
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=typescript,graphql,redis,firebase,figma" height="55" />
+</p>
+
+- TypeScript  
+- GraphQL  
+- Redis  
+- Firebase  
+- UI/UX basics (Figma)
+
+---
+
+# 🧩 **Full Stack Project Ideas**
+
+- 📝 MERN Notes App  
+- 🎞 Movie App with API  
+- 🛒 E-commerce Store  
+- 👤 Authentication System  
+- 🌦 Weather App  
+- 📚 Blog with Admin Panel  
+- 💬 Chat Application  
+
+---
+
+# 🎯 **Final Goal: Become a Full Stack Developer!**
+
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Poppins&size=24&pause=1200&color=0AFFD1&center=true&vCenter=true&width=800&height=70&lines=Frontend+%2B+Backend+%3D+Full+Stack+Developer;Build+Anything.+Deploy+Everywhere." />
+</p>
+
+---
+
 
 ---
 
