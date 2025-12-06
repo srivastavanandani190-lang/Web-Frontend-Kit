@@ -1,11 +1,9 @@
-# 🌐✨ Web Frontend Kit — My Frontend Learning Journey
+# 🌐Web Frontend Kit — My Frontend Learning Journey
 
 <!-- ====== Header typing SVG (stable) ====== -->
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=700&size=32&pause=1000&color=39FFEE&center=true&vCenter=true&width=1000&height=90&lines=Welcome+to+My+Frontend+Universe!;HTML+CSS+JavaScript+React+Projects;Learning+%F0%9F%8C%B0+Building+%E2%9A%92%EF%B8%8F+Growing+%F0%9F%9A%80" alt="Welcome Banner" />
 </p>
-
-# 🚀 About This Repository
 Web-Frontend-Kit is a curated collection of essential frontend tools, templates, components, and best practices to kickstart modern web development.
 It includes reusable UI elements, optimized project structures, and ready-to-use setups designed to help developers build fast, responsive, and visually polished web interfaces.
 <p align="center">
@@ -13,9 +11,9 @@ It includes reusable UI elements, optimized project structures, and ready-to-use
   <img src="https://raw.githubusercontent.com/github/explore/main/topics/web/web.png" width="90" alt="Web Icon" />
 </p>
 
-# 🚀 Full Stack Development Roadmap  
+# 🚀Full Stack Development Roadmap  
 
-# 🧭 **1. Internet & Basic Foundations**
+# 🧭**1. Internet & Basic Foundations**
 
 <p align="left">
   <img src="https://skillicons.dev/icons?i=git,github,linux,bash" height="55" />  
@@ -30,25 +28,25 @@ It includes reusable UI elements, optimized project structures, and ready-to-use
 
 ---
 
-# 🎨 **2. Frontend Development (UI Layer)**
+# 🎨**2. Frontend Development (UI Layer)**
 
 <p align="left">
   <img src="https://skillicons.dev/icons?i=html,css,js,bootstrap,tailwind" height="55" />
 </p>
 
-## 📌 Core Frontend
+## 📌Core Frontend
 - HTML5  
 - CSS3  
 - JavaScript ES6+  
 
-## 🎨 Styling Frameworks  
+## 🎨Styling Frameworks  
 - Tailwind CSS  
 - Bootstrap  
 - Sass  
 
 ---
 
-# ⚛️ **3. Frontend Frameworks**
+# ⚛️**3. Frontend Frameworks**
 
 <p align="left">
   <img src="https://skillicons.dev/icons?i=react,redux,nextjs,vue" height="55" />
@@ -61,7 +59,7 @@ It includes reusable UI elements, optimized project structures, and ready-to-use
 
 ---
 
-# ⚙️ **4. Backend Development (Server Side)**
+# ⚙️**4. Backend Development (Server Side)**
 
 <p align="left">
   <img src="https://skillicons.dev/icons?i=nodejs,express,java,spring,python,fastapi" height="55" />
@@ -76,13 +74,13 @@ It includes reusable UI elements, optimized project structures, and ready-to-use
 
 ---
 
-# 🗄️ **5. Databases (Storage Layer)**
+# 🗄️**5. Databases (Storage Layer)**
 
 <p align="left">
   <img src="https://skillicons.dev/icons?i=mysql,postgres,mongodb,sqlite" height="55" />
 </p>
 
-## 📌 Learn:
+## 📌Learn:
 - SQL basics  
 - Normalization  
 - ORM (Mongoose, Prisma, Hibernate)  
@@ -90,7 +88,7 @@ It includes reusable UI elements, optimized project structures, and ready-to-use
 
 ---
 
-# ☁️ **6. DevOps & Deployment**
+# ☁️**6.DevOps & Deployment**
 
 <p align="left">
   <img src="https://skillicons.dev/icons?i=docker,postman,vercel,netlify,aws,gitlab" height="55" />
@@ -104,7 +102,7 @@ It includes reusable UI elements, optimized project structures, and ready-to-use
 
 ---
 
-# 📱 **7. Optional + Extra Power Skills**
+# 📱**7.Optional + Extra Power Skills**
 
 <p align="left">
   <img src="https://skillicons.dev/icons?i=typescript,graphql,redis,firebase,figma" height="55" />
@@ -118,13 +116,13 @@ It includes reusable UI elements, optimized project structures, and ready-to-use
 
 ---
 
-# 🎯 **Final Goal: Become a Full Stack Developer!**
+# 🎯**Final Goal: Become a Full Stack Developer!**
 
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Poppins&size=24&pause=1200&color=0AFFD1&center=true&vCenter=true&width=800&height=70&lines=Frontend+%2B+Backend+%3D+Full+Stack+Developer;Build+Anything.+Deploy+Everywhere." />
 </p>
 
 
-# 🎉 Thank You for Visiting!
+# 🎉Thank You for Visiting!
 
 <p align="center"><b>⭐ If you like this repository, consider starring it!</b></p> 
