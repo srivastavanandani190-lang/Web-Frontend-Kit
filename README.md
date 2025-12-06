@@ -3,8 +3,6 @@
 <!-- ====== Header typing SVG (stable) ====== -->
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=700&size=32&pause=1000&color=39FFEE&center=true&vCenter=true&width=1000&height=90&lines=Welcome+to+My+Frontend+Universe!;HTML+CSS+JavaScript+React+Projects;Learning+%F0%9F%8C%B0+Building+%E2%9A%92%EF%B8%8F+Growing+%F0%9F%9A%80" alt="Welcome Banner" />
-   <img src="https://raw.githubusercontent.com/github/explore/main/topics/web/web.png" width="90" alt="Web Icon" />
-</p>
 </p>
 Web-Frontend-Kit is a curated collection of essential frontend tools, templates, components, and best practices to kickstart modern web development.
 It includes reusable UI elements, optimized project structures, and ready-to-use setups designed to help developers build fast, responsive, and visually polished web interfaces.
