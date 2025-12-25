@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        background-color: black;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        height: 100vh;
+        font-size: 25px;
+    }
+    button{
+        height: 46px;
+        width: 180px;
+        background-color: rgb(224, 228, 150);
+    }
+</style>
+<body>
+    <div id="parent">
+        <h2>Friendship Calculator</h2>
+        <form>
+            <label for="person1">Name :</label>
+            <input type="text" id="person1" name="person1" required>
+            <br><br>
+            <label for="person2">Friend's Name : </label>
+            <input type="text" id="person2" name="person2" required>
+            <br><br>
+            <button type="submit"><h3>Calculate Friendship</h3></button>
+        </form>
+        
+        <h5>RESULT:</h5>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
