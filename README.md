@@ -147,8 +147,6 @@
 
 ---
 
-## 🎉 Thank You for Visiting!
-
 <p align="center">
   ⭐ <b>If you like this repo, give it a star!</b><br/>
   <i>Keep learning. Keep building 🚀</i>
