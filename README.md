@@ -1,5 +1,4 @@
-# 🌐 Web Frontend Kit  
-### 🚀 My Frontend → Full Stack Learning Journey
+# 🚀 My Frontend → Full Stack Learning Journey 
 
 <!-- ===== Hero Typing Banner ===== -->
 <p align="center">
