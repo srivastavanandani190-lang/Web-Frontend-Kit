@@ -1,5 +1,4 @@
-# 🌐 Web Frontend Kit  
-### 🚀 My Frontend → Full Stack Learning Journey
+# 🚀 My Frontend → Full Stack Learning Journey 
 
 <!-- ===== Hero Typing Banner ===== -->
 <p align="center">
@@ -147,8 +146,6 @@
 - [ ] Deployment  
 
 ---
-
-## 🎉 Thank You for Visiting!
 
 <p align="center">
   ⭐ <b>If you like this repo, give it a star!</b><br/>
