@@ -1,16 +1,18 @@
-
-
-
-
-
-
-
-
-
-
-
-
-
+//async indicates asynchronous function
+//await indicates wait for the promise to resolve(jabtak data fetch na ho jaye tabtak aage na badho)
+//await alone freezes the code .
+async function github(){//async function freeze nhi karta
+    try{
+        const response = await fetch("https://api.github.com/users/srivastava1234");
+        const data = await response.json();
+        console.log(data);
+    }
+    catch(error){
+        console.log("Error:", error);
+    }
+}
+github();
+console.log("Fetching github data...");
 
 const orderdetails = {
     orderId: 1234,

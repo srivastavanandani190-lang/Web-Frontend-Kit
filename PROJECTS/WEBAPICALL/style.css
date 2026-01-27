@@ -28,7 +28,7 @@ h1{
     padding: 10px;
     border: 2px solid white;
     border-radius: 5px;
-    transform: transform 1s ease;
+    transition: transform 1s ease;
 }
 .user:hover{
     box-shadow: 0 0 10px orange;    
