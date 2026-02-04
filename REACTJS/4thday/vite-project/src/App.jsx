@@ -1,35 +1,34 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
-
+import { useState } from 'react';
+//usestae ,count=0,setcount
+//setcount is a function to update count and app function will re render
 function App() {
-  const [count, setCount] = useState(0)
+  //  let count = 0;
+  let [count,setCount]=useState(0);
+    //useState is a hook function
+    //it helps to create a state variable in react component
+    //it returns an array of two values
+    //first value is the current state value
+    //second value is a function to update the state value
+  function increaseNumber(){
+    count++;
+    setCount(count);
+    //hook function to update the state on UI
+    //setCount will inform react that state has changed
+    //react will re-render the component
 
+
+    // console.log(count);
+    // const para=document.querySelector("p");
+    // para.textContent=`Counter:${count}`;
+    //react should be used to update the UI
+    //source of bug first paragraph will change!
+   } 
   return (
     <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+    <p>Counter:{count}</p>
+    <button onClick={increaseNumber}>Increment:{count} </button>
+    
     </>
   )
 }
-
-export default App
+export default App;
