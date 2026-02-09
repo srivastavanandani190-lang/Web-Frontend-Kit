@@ -20,9 +20,25 @@ const   quotes=[
     "The future belongs to those who believe in the beauty of their dreams.",
     "Success consists of going from failure to failure without loss of enthusiasm.",
 ];
+// This code snippet defines an array called 'quotes' that contains a list of motivational quotes. 
+// Each quote is a string, and the array can be used to randomly select and display a quote when needed.
+
 const button=document.querySelector("button");
 const quote=document.querySelector("h1");
+//querySelector is used to select the first element that matches a specified CSS selector. 
+// In this case, it selects the first <button> element and the first <h1> element in the document and assigns
+//  them to the variables 'button' and 'quote' respectively.
+
 button.addEventListener("click",()=>{
+
     const randomIndex=Math.floor(Math.random()*quotes.length);
-    quote.textContent=quotes[randomIndex];
+    // This line generates a random index by multiplying a random decimal (between 0 and 1) with the length of the 
+    // quotes array, and then rounding it down to the nearest whole number using Math.floor(). This ensures that the 
+    // index is a valid position within the quotes array.
+
+
+    quote.textContent=quotes[randomIndex];// This line updates the text content of the h1 element
+    //  (which is selected and stored in the variable 'quote')
+
+
 });
