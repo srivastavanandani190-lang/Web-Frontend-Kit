@@ -1,4 +1,5 @@
 const parentElement = document.getElementById('parent');
+// Add a click event listener to the parent element
 parentElement.addEventListener('click',(e)=>{
     const child=e.target;
     const body=document.querySelector('body');
