@@ -38,19 +38,25 @@ console.log(factorial(5)); //120
 // It does not have its own this, arguments, super, or new.target.It is not suitable for methods, and it cannot be used 
 // as constructors. It is best suited for non-method functions, and it cannot be used as generators.without declaration you can't call the function.
 const sum2 = (a,b) => a+b;
-console.log(sum2(142,20)); //30
+console.log(sum2(142,20)); //30 two parameters with parenthesis.
 
-const geet=(S)=>{
+const geet=S=>{
     console.log(`Hello ${S}`);
 }
-geet("Nandani");
+geet("Nandani");//single parameter without parenthesis.
 
 const msg=()=>{
-    return "good morning";
+    return "good morning";//no parameter with parenthesis.
 }
 console.log(msg());
 
 const msg1=()=> "good morning";
-console.log(msg1());
+console.log(msg1());//no return statement with implicit return.
+
+const greet=()=>{
+    console.log("Hello World");
+}
+console.log(greet());//undefined because there is no return statement.
+
 
 
