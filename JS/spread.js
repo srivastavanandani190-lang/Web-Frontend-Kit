@@ -37,6 +37,9 @@ console.log(sum(...a));
 console.log(a[0],a[1],a[2]);
 //spread operator unpacks the elements of an array or object into individual elements.  
 //rest operator is used to pack multiple elements into an array or object.  
+//function calling spread
+//function definition rest
+//destructuring rest
 let object={
     name:"Nandani",
     age:21,
@@ -50,3 +53,4 @@ function display({name,age,...rest}){
     console.log(rest);
 }
 display(object);
+
