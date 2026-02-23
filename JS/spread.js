@@ -24,4 +24,29 @@ let obj1 = { a: 1, b: 2, name: "Nandani" ,
     city:"Pune"
 };
 let obj2 = { ...obj1, c: 3 };
-console.log(obj2);  
+console.log(obj1.name);  
+obj2.name = "honey";
+console.log(obj1.name); //obj1.name is not changed because obj2 is a copy of obj1.
+console.log(obj2.name); //obj2.name is changed because obj2 is a copy of obj1.
+
+ let a=[1,2,3];
+ function sum(x,y,z){
+    return x+y+z;
+}
+console.log(sum(...a));
+console.log(a[0],a[1],a[2]);
+//spread operator unpacks the elements of an array or object into individual elements.  
+//rest operator is used to pack multiple elements into an array or object.  
+let object={
+    name:"Nandani",
+    age:21,
+    city:"Pune",
+    course:"MERN",
+    college:"ABES"
+}
+function display({name,age,...rest}){
+    console.log(name);
+    console.log(age);
+    console.log(rest);
+}
+display(object);
