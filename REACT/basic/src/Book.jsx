@@ -1,43 +1,35 @@
-// import Detail from "./Detail.jsx";
-function Book(){
- 
-    // const Book1={id:1,
-    //     Name:"THE POWER OF YOUR SUBCONSCIOUS MIND",
-    //     price:500,
-    //     Image:"https://www.crossword.in/cdn/shop/files/51a_BIdKdML.jpg?v=1764149472 &width=200 &height=200&crop=fit"
-    // }
-    // const Book2={id:2,
-    //     Name:"BETTER THAN THE MOVIES",
-    //     price:400,
-    //     Image:"https://www.crossword.in/cdn/shop/files/51a_BIdKdML.jpg?v=1764149472 &width=200 &height=200&crop=fit"
-    // }
-const Book=[
-{  "name":"THE POWER OF YOUR SUBCONSCIOUS MIND",
-    "price":500,
-    "Image":"https://www.crossword.in/cdn/shop/files/51a_BIdKdML.jpg?v=1764149472 &width=200 &height=200&crop=fit",
-},
-{
-    "name":"BETTER THAN THE MOVIES",
-    "price":400,
-    "Image":"https://www.crossword.in/cdn/shop/files/51a_BIdKdML.jpg?v=1764149472 &width=200 &height=200&crop=fit",
-}
-]
-    
-   return(
-        <div>
-            <h2><u>Book Component</u></h2>
-            {/* <Detail data={Book1
-            }/> */}
-            <h3>Book Name:- {Book[0].name}</h3>
-            <h3>Book ID:- {Book[0].id}</h3>
-            <h4>Book Price:- {Book[0].price}</h4>
-            <img src={Book[0].Image} alt="book image" />
-            <h3>Book Name:- {Book[1].name}</h3>
-            <h3>Book ID:- {Book[1].id}</h3>
-            <h4>Book Price:- {Book[1].price}</h4>
-            <img src={Book[1].Image} alt="book image" />
+import Detail from "./Detail";
 
-        </div>
-    )
+function Book() {
+
+  const books = [
+    {
+      id: 1,
+      name: "THE POWER OF YOUR SUBCONSCIOUS MIND",
+      price: 500,
+      Image: "https://www.crossword.in/cdn/shop/files/51a_BIdKdML.jpg?v=1764149472&width=200&height=200&crop=fit",
+    },
+    {
+      id: 2,
+      name: "BETTER THAN THE MOVIES",
+      price: 400,
+      Image: "https://www.crossword.in/cdn/shop/files/51a_BIdKdML.jpg?v=1764149472&width=200&height=200&crop=fit",
+    }
+  ];
+//list of arrays of books with their details such as id, name, price and image.
+  return (
+    <div>
+      {
+        books.map((element) => (
+          <Detail 
+            props={element} 
+            id={element.id} 
+            key={element.id} 
+          />
+        ))
+      }
+    </div>
+  );
 }
+
 export default Book;
