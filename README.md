@@ -1,5 +1,19 @@
-# 🚀 My Frontend → Full Stack Learning Journey 
+<h1 align="center">
+  <span style="color:#00FFFF; font-weight:bold; animation: glow 2s infinite alternate;">
+    🚀 My Frontend → Full Stack Learning Journey
+  </span>
+</h1>
 
+<style>
+@keyframes glow {
+  from {
+    text-shadow: 0 0 10px #00FFFF;
+  }
+  to {
+    text-shadow: 0 0 25px #00FFFF, 0 0 40px #00FFFF;
+  }
+}
+</style>
 <!-- ===== Hero Typing Banner ===== -->
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=700&size=34&pause=900&color=00F5D4&center=true&vCenter=true&width=1100&height=95&lines=Welcome+to+My+Frontend+Universe+%F0%9F%8C%8D;Design.+Code.+Build.+Ship.;HTML+%7C+CSS+%7C+JavaScript+%7C+React+%7C+More" />
