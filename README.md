@@ -1,27 +1,32 @@
+<!-- ===== Animated Neon Heading ===== -->
 <h1 align="center">
-  <span style="color:#00FFFF; font-weight:bold; animation: glow 2s infinite alternate;">
-    🚀 My Frontend → Full Stack Learning Journey
+  <span style="color:#00F5D4; font-weight:900;">
+    ⚡ 🚀 My Frontend → Full Stack Learning Journey 🚀 ⚡
   </span>
 </h1>
 
-<style>
-@keyframes glow {
-  from {
-    text-shadow: 0 0 10px #00FFFF;
-  }
-  to {
-    text-shadow: 0 0 25px #00FFFF, 0 0 40px #00FFFF;
-  }
-}
-</style>
-
-<!-- ===== Hero Typing Banner ===== -->
+<!-- ===== Typing Animation Banner ===== -->
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=700&size=34&pause=900&color=00F5D4&center=true&vCenter=true&width=1100&height=95&lines=Welcome+to+My+Frontend+Universe+%F0%9F%8C%8D;Design.+Code.+Build.+Ship.;HTML+%7C+CSS+%7C+JavaScript+%7C+React+%7C+More" />
+  <img 
+    src="https://readme-typing-svg.demolab.com?font=Poppins&weight=800&size=36&duration=3000&pause=800&color=00F5D4&center=true&vCenter=true&width=1200&height=100&lines=Welcome+to+My+Frontend+Universe+🌍;Create.+Code.+Innovate.+Build.;HTML+✨+CSS+✨+JavaScript+✨+React+✨;Learning+Today+%7C+Building+Tomorrow+🚀"
+  />
+</p>
+
+<!-- ===== Subtitle ===== -->
+<p align="center">
+  <img src="https://img.shields.io/badge/Frontend%20Journey-Full%20Stack%20Growth-00F5D4?style=for-the-badge&logo=rocket&logoColor=black"/>
 </p>
 
 <p align="center">
-  <b>A modern, hands-on roadmap to mastering frontend and growing into a Full Stack Developer.</b>
+  <b>
+    💻 Turning ideas into interactive experiences •  
+    ⚡ Building strong frontend foundations •  
+    🚀 Growing step-by-step into Full Stack Development
+  </b>
+</p>
+
+<p align="center">
+  <i>✨ Learn • Experiment • Build • Repeat ✨</i>
 </p>
 
 ---
