@@ -1,7 +1,7 @@
 <!-- ===== Animated Neon Heading ===== -->
 <h1 align="center">
   <span style="color:#00FFFF; font-weight:900;">
-    📘My Frontend → Full Stack Learning Journey🎬
+    🎬My Frontend → Full Stack Learning Journey🎬
   </span>
 </h1>
 
