@@ -1,7 +1,7 @@
 <!-- ===== Animated Neon Heading ===== -->
 <h1 align="center">
   <span style="color:#00FFFF; font-weight:900;">
-    📘My Frontend → Full Stack Learning Journey📘
+    📘My Frontend → Full Stack Learning Journey🎬
   </span>
 </h1>
 
@@ -145,17 +145,6 @@
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Poppins&size=26&pause=1200&color=00F5D4&center=true&vCenter=true&width=900&height=80&lines=Frontend+%2B+Backend+%3D+Full+Stack+Developer;Build+Anything.+Deploy+Everywhere." />
 </p>
-
----
-
-## 📌 Progress Tracker
-
-- [x] HTML & CSS  
-- [x] JavaScript  
-- [ ] React Projects  
-- [ ] Backend APIs  
-- [ ] Full Stack Apps  
-- [ ] Deployment  
 
 ---
 
