@@ -5,12 +5,7 @@
   </span>
 </h1>
 
-<!-- ===== Typing Animation Banner ===== -->
-<p align="center">
-  <img 
-    src="https://readme-typing-svg.demolab.com?font=Poppins&weight=800&size=36&duration=3000&pause=800&color=00F5D4&center=true&vCenter=true&width=1200&height=100&lines=Welcome+to+My+Frontend+Universe+🌍;Create.+Code.+Innovate.+Build.;HTML+✨+CSS+✨+JavaScript+✨+React+✨;Learning+Today+%7C+Building+Tomorrow+🚀"
-  />
-</p>
+ 
 
 <!-- ===== Subtitle ===== -->
 <p align="center">
@@ -25,10 +20,7 @@
   </b>
 </p>
 
-<p align="center">
-  <i>✨ Learn • Experiment • Build • Repeat ✨</i>
-</p>
-
+ 
 ---
 
 ## ✨ About This Repository
