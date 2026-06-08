@@ -3,10 +3,15 @@ console.log("Hello, World!");
 /* This is a multi-line comment
  It can span multiple lines
 */
-// Variables
+// Variables 
 let name = "Alice";
 const age = 30;
 var isStudent = true;
+let hello = "This will cause an error because 'hello' is not declared with var, let, or const.";
+let roll;
+console.table({ name, age, isStudent, hello, roll });
+
+
 // Data Types
 let number = 42;
 let string = "Hello";
@@ -15,6 +20,8 @@ let array = [1, 2, 3];
 let object = { key: "value" };
 console.log(name, age, isStudent);
 console.log(number, string, boolean, array, object);
+
+
 //error
 console.error("This is an error message");
 console.warn("This is a warning message");
