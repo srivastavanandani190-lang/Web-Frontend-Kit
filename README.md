@@ -1,14 +1,26 @@
-# 🚀 My Frontend → Full Stack Learning Journey 
+<!-- ===== Animated Neon Heading ===== -->
+<h1 align="center">
+  <span style="color:#00FFFF; font-weight:900;">
+    🎬My Frontend → Full Stack Learning Journey🎬
+  </span>
+</h1>
 
-<!-- ===== Hero Typing Banner ===== -->
+ 
+
+<!-- ===== Subtitle ===== -->
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=700&size=34&pause=900&color=00F5D4&center=true&vCenter=true&width=1100&height=95&lines=Welcome+to+My+Frontend+Universe+%F0%9F%8C%8D;Design.+Code.+Build.+Ship.;HTML+%7C+CSS+%7C+JavaScript+%7C+React+%7C+More" />
+  <img src="https://img.shields.io/badge/Frontend%20Journey-Full%20Stack%20Growth-00F5D4?style=for-the-badge&logo=rocket&logoColor=black"/>
 </p>
 
 <p align="center">
-  <b>A modern, hands-on roadmap to mastering frontend and growing into a Full Stack Developer.</b>
+  <b>
+    💻 Turning ideas into interactive experiences •  
+    ⚡ Building strong frontend foundations •  
+    🚀 Growing step-by-step into Full Stack Development
+  </b>
 </p>
 
+ 
 ---
 
 ## ✨ About This Repository
@@ -133,17 +145,6 @@
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Poppins&size=26&pause=1200&color=00F5D4&center=true&vCenter=true&width=900&height=80&lines=Frontend+%2B+Backend+%3D+Full+Stack+Developer;Build+Anything.+Deploy+Everywhere." />
 </p>
-
----
-
-## 📌 Progress Tracker
-
-- [x] HTML & CSS  
-- [x] JavaScript  
-- [ ] React Projects  
-- [ ] Backend APIs  
-- [ ] Full Stack Apps  
-- [ ] Deployment  
 
 ---
 
