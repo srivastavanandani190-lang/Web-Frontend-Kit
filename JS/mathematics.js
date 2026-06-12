@@ -43,7 +43,7 @@ console.log(Math.floor(Math.random()*(max-min+1))+min);//to generate random inte
 
 
 console.log(Math.max(1,5,3,9,2));
-console.log(Math.min(1,5,3,9,2));
+console.log(Math.min(1,-5,3,9,2));
 
 
  
