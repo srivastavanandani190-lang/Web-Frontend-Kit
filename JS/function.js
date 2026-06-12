@@ -7,11 +7,11 @@ let a;
 let b;
 function sum(a,b){
     return a+b;
+//after return statement the function will stop executing and return the value to the caller. any code after return statement will not be executed.
 }
-sum(45,20);
-sum();
+console.log(sum());//execution NaN because there is no parameter passed.
 var result = sum(45,20);
-console.log(sum(5,4)); //30
+console.log(sum(5,4)); //9
 console.log(result);
 console.log(`sum of two numbers is ${sum(70,80)}`);
 
@@ -19,7 +19,6 @@ console.log(`sum of two numbers is ${sum(70,80)}`);
 //function expression -> function without name is called anonymous function and when we assign it to a
 // variable then it is called function expression.
 const sum1 = function(a,b){
-
     return a+b;
 }   
 console.log(sum1(10,20)); //30
@@ -58,5 +57,12 @@ const greet=()=>{
 }
 console.log(greet());//undefined because there is no return statement.
 
-
+function loginusermessage(username){
+    if(username===undefined){
+        return "Please provide a username";
+    }
+    return `Welcome ${username}`;
+}
+console.log(loginusermessage());//undefined because there is no parameter passed.
+console.log(loginusermessage("Nandani"));//Welcome Nandani
 
