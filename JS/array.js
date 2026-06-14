@@ -63,7 +63,7 @@ console.log(slicedArr);
 //splice() --> it changes the contents of an array by removing or replacing existing elements and/or adding new elements in place.
 let arr8 = [1, 2, 3, 4, 5];
 arr8.splice(1,3);// it removes 3 elements starting from index 1
-console.log(arr8); // [1, 2, 4, 5]
+console.log(arr8); // [1,5]
 
 console.log(arr7.includes(3)); 
 console.log(arr7.indexOf(6));
