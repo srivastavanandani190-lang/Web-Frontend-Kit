@@ -26,3 +26,17 @@ for(let i=1; i<=10; i++) {
     console.log(i);
 
 }
+
+//while loop--> used when we don't know the number of iterations
+let list=["apple", "banana", "cherry","guava","mango","litchi"];
+while(list.length > 0) {
+    console.log(list[0]);
+    list.shift();//remove the first element from the array
+}
+
+//do while loop--> used when we want to execute the loop at least once
+let num=1;
+do {
+    console.log(num);
+    num++;
+}while(num <= 3);
