@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background-color:black; color:white">
+    <ul class="language">
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+    </ul>
+</body>
+<script>
+       function addLanguage(langname){
+        const li=document.createElement("li");
+        li.innerHTML=`${langname}`;
+        document.querySelector('.language').appendChild(li);
+       }
+       addLanguage("Python");
+       addLanguage("C++");
+       addLanguage("Java"); 
+       
+       //optimised
+       function addLanguages(languages){
+        const li=document.createElement("li");
+        li.appendChild(document.createTextNode(languages));
+        document.querySelector('.language').appendChild(li);
+       }
+     addLanguages("C#");
+     addLanguages("PHP");
+
+     //edit 
+    const secondlang=document.querySelector("li:nth-child(2)");//.innerHTML="HTML5";
+    const newli=document.createElement("li");
+    newli.textContent="ReactJS";
+    secondlang.replaceWith(newli);
+
+    document.querySelector("li:nth-child(3)").innerHTML="NodeJS";
+    const firstlang=document.querySelector("li:first-child");
+    firstlang.outerHTML="<li>HTML5</li>";
+
+    //remove 
+    const lastlang=document.querySelector("li:last-child");
+    lastlang.remove();
+    
+</script>
+</html>
