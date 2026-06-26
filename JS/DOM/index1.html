@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background-color:black";color:white>
+    
+</body>
+<script>
+    // JavaScript code goes here
+    const div = document.createElement('div');
+    div.className = 'parent';
+    div.id=Math.round(Math.random()*10+1);
+    div.setAttribute('title','parent div');//roundtrip saves
+
+    div.style.backgroundColor = 'lightblue';
+    div.style.padding = '10px';
+
+    // div.innerText = 'This is a dynamically created div.';
+    const addText = document.createTextNode('This is a dynamically created div.');
+    div.appendChild(addText);
+
+    document.body.appendChild(div);//linking to body
+
+</script>
+</html>
