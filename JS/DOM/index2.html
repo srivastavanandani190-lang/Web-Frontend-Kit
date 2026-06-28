@@ -15,7 +15,7 @@
 <script>
        function addLanguage(langname){
         const li=document.createElement("li");
-        li.innerHTML=`${langname}`;
+        li.innerHTML=`${langname}`;//not recommended because of security issues as innerHTML can be used to inject malicious code
         document.querySelector('.language').appendChild(li);
        }
        addLanguage("Python");
@@ -38,6 +38,7 @@
     secondlang.replaceWith(newli);
 
     document.querySelector("li:nth-child(3)").innerHTML="NodeJS";
+    
     const firstlang=document.querySelector("li:first-child");
     firstlang.outerHTML="<li>HTML5</li>";
 
