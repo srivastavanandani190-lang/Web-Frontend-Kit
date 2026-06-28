@@ -23,3 +23,10 @@ Array.from(temp).forEach((p)=>{//return array from HTMLCollection
     p.style.fontSize="30px";
     p.style.textDecoration="underline";
 });
+// innerHTML
+// let title=document.getElementById("heading");
+// console.log(title.innerHTML);
+// innerText
+// console.log(title.innerText);
+// textContent
+// console.log(title.textContent);
