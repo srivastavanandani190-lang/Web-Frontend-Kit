@@ -1,0 +1,81 @@
+/* Reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body{ 
+    background-color: #e0e0e0;
+    transition: background-color 0.4s ease;
+}
+
+/* Container */
+.container{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 22px;
+}
+
+/* Heading */
+h1,
+h2{
+    color: rgb(13, 28, 69);
+    text-align: center;
+}
+
+/* Buttons Container */
+.buttons{
+    display: flex;
+    flex-direction: column;   /* Vertical alignment */
+    gap: 14px;
+}
+
+/* Button */
+.button{
+    width: 200px;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.button:hover{
+    transform: scale(1.05);
+}
+
+/* Colors */
+#grey{
+    background: lightgrey;
+}
+
+#blue{
+    background: lightblue;
+}
+
+#green{
+    background: lightgreen;
+}
+
+#red{
+    background: lightcoral;
+}
+
+#yellow{
+    background: lightyellow;
+}
+
+#orange{
+    background: lightsalmon;
+}
+
+#purple{
+    background: plum;
+}
