@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 30px;
+    background-color: #000;
+}
+#banner{
+    color: #fff;
+    font-size: 3rem;
+    font-family: 'Courier New', Courier, monospace;
+    padding:10px;
+    
+}
+#clock{
+    color: rgb(255, 174, 0);
+    font-size: 4rem;
+    font-family: 'Courier New', Courier, monospace;
+    padding:10px;
+    
+}
