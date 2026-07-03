@@ -39,8 +39,6 @@
 
 ## 🛣️ Full Stack Development Roadmap
 
----
-
 ## 🧭 1. Internet & Developer Foundations
 
 <p align="left">
