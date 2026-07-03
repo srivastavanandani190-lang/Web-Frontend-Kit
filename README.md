@@ -1,6 +1,6 @@
 <!-- ===== Animated Neon Heading ===== -->
 <h1 align="center">
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=260&color=0:001F3F,40:00F5D4,70:00F5D4,100:B8FFF6&text=Frontend%20%E2%86%92%20Full%20Stack%20Learning%20Journey&fontColor=FFFFFF&fontSize=42&fontAlignY=35&animation=fadeIn"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=260&color=0:0A192F,50:00F5D4,100:7FFFD4&text=Frontend%20%E2%86%92%20Full%20Stack%20Learning%20Journey&fontColor=FFFFFF&fontSize=42&fontAlignY=35&animation=fadeIn"/>
 </h1>
 
  
