@@ -1,8 +1,6 @@
 <!-- ===== Animated Neon Heading ===== -->
 <h1 align="center">
-  <span style="color:#00FFFF; font-weight:900;">
-    🎬My Frontend → Full Stack Learning Journey🎬
-  </span>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=260&color=0:0A192F,25:0077B6,50:00B4D8,75:48CAE4,100:90E0EF&text=Frontend%20%E2%86%92%20Full%20Stack%20Learning%20Journey&fontColor=FFFFFF&fontSize=42&fontAlignY=35&animation=fadeIn"/>
 </h1>
 
  
@@ -145,8 +143,4 @@
 </p>
 
 ---
-
-<p align="center">
-  ⭐ <b>If you like this repo, give it a star!</b><br/>
-  <i>Keep learning. Keep building 🚀</i>
-</p>
+ 
