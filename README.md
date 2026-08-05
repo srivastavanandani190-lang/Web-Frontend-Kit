@@ -1,8 +1,6 @@
 <!-- ===== Animated Neon Heading ===== -->
 <h1 align="center">
-  <span style="color:#00FFFF; font-weight:900;">
-    🎬My Frontend → Full Stack Learning Journey🎬
-  </span>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=200&color=0:0A192F,50:00F5D4,100:7FFFD4&text=Frontend%20%E2%86%92%20Full%20Stack%20Learning%20Journey&fontColor=FFFFFF&fontSize=38&fontAlignY=35&animation=fadeIn"/>
 </h1>
 
  
@@ -39,15 +37,13 @@
 
 ## 🛣️ Full Stack Development Roadmap
 
----
-
-## 🧭 1. Internet & Developer Foundations
+### 🧭 1. Internet & Developer Foundations
 
 <p align="left">
   <img src="https://skillicons.dev/icons?i=git,github,linux,bash" height="55" />
 </p>
 
-### 📘 Learn
+#### 📘 Learn
 - 🌐 How the Internet works  
 - 🔐 HTTP / HTTPS  
 - 🧾 Git & GitHub  
@@ -56,25 +52,25 @@
 
 ---
 
-## 🎨 2. Frontend Development (UI Layer)
+### 🎨 2. Frontend Development (UI Layer)
 
 <p align="left">
   <img src="https://skillicons.dev/icons?i=html,css,js,bootstrap,tailwind,sass" height="55" />
 </p>
 
-### 🧱 Core
+#### 🧱 Core
 - HTML5  
 - CSS3  
 - JavaScript (ES6+)  
 
-### 🎨 Styling
+#### 🎨 Styling
 - Tailwind CSS  
 - Bootstrap  
 - Sass / SCSS  
 
 ---
 
-## ⚛️ 3. Frontend Frameworks
+### ⚛️ 3. Frontend Frameworks
 
 <p align="left">
   <img src="https://skillicons.dev/icons?i=react,redux,nextjs,vue" height="55" />
@@ -87,20 +83,20 @@
 
 ---
 
-## ⚙️ 4. Backend Development
+### ⚙️ 4. Backend Development
 
 <p align="left">
   <img src="https://skillicons.dev/icons?i=nodejs,express,java,spring,python,fastapi" height="55" />
 </p>
 
-### 🚀 Choose One
+#### 🚀 Choose One
 - Node.js + Express  
 - Java + Spring Boot  
 - Python + Django / FastAPI  
 
 ---
 
-## 🗄️ 5. Databases
+### 🗄️ 5. Databases
 
 <p align="left">
   <img src="https://skillicons.dev/icons?i=mysql,postgres,mongodb,sqlite" height="55" />
@@ -113,7 +109,7 @@
 
 ---
 
-## ☁️ 6. DevOps & Deployment
+### ☁️ 6. DevOps & Deployment
 
 <p align="left">
   <img src="https://skillicons.dev/icons?i=docker,postman,vercel,netlify,aws,gitlab" height="55" />
@@ -126,7 +122,7 @@
 
 ---
 
-## 📱 7. Extra Power Skills
+### 📱 7. Extra Power Skills
 
 <p align="left">
   <img src="https://skillicons.dev/icons?i=typescript,graphql,redis,firebase,figma" height="55" />
@@ -147,8 +143,4 @@
 </p>
 
 ---
-
-<p align="center">
-  ⭐ <b>If you like this repo, give it a star!</b><br/>
-  <i>Keep learning. Keep building 🚀</i>
-</p>
+ 
