@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>online shop</title>
+</head>
+<style>
+    .box{
+        width: 300px;
+        height: 300px;
+        background-color: rgb(169, 166, 172);
+        color:black;
+        gap: 10px;
+        margin: 0 auto;
+        padding: 20px;
+        text-align: center;
+        text-transform: uppercase;
+        height: 400px;
+        width: 400px;
+    }
+    .box button{
+        width: 150px;
+        height: 40px;
+        background-color: rgb(0, 0, 0);
+        color: white;
+        border-radius: 10px;
+    }
+    </style>
+<body>
+    <div class="box">
+    <h1>Online Store</h1>
+    <p>
+        Welcome to our online store!
+
+        <p>Tea : 50</p>
+        <p>Coffee : 100</p>
+        <p>Cold Drink : 150</p>
+        <p>Milk Shake : 200</p>
+        <p>Chocolate : 250</p>
+        <p>Juice : 300</p>
+    </p>
+    <button onclick="clickme()">Enter your item:</button>
+
+    </div>
+    <script>
+    let item={
+            TEA:50,
+            COFFEE:100,
+            COLDDRINK:150,
+            MILKSHAKE:200,
+            CHOCOLATE:250,
+            JUICE:300
+            
+     }
+      
+ 
+
+       function clickme(){
+            let a=prompt("Enter your item name:");
+            let b=prompt("Enter your Quantity:");
+            document.write(a);
+            document.write("<br><img src='image.png' width='20px' height='20px'>"+" Your Total amount: " + item[a] * b);
+        }
+    
+    </script>
+    
+</body>
+</html>
