@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Function</title>
+</head>
+<body>
+    <script>
+        function add(a, b) {
+            return a + b;
+        }
+        //function->it is a block of code that can be reused multiple times in a program. It can take input parameters and return a value. Functions help in organizing code, improving readability, and promoting code reusability.
+        var result = add(5, 10);
+        document.write("The sum of 5 and 10 is: " + result);
+
+        const abes=() => "Hello, this is an arrow function!";
+        document.write("<br>" + abes());
+
+//return ->it is a keyword used in functions to specify the value that should be returned to the caller.
+//When a return statement is executed, the function stops executing and sends the specified value back to the code that called the function.
+//If no return statement is provided, the function returns undefined by default.
+//why using return-> It allows functions to produce output that can be used elsewhere in the program, enabling modular and reusable code.
+//It also helps in controlling the flow of execution within a function.
+        const calculator=(num1,num2,operation)=>{
+            if(operation==="add"){
+                return num1+num2;
+            }else if(operation==="subtract"){
+                return num1-num2;
+            }else if(operation==="multiply"){
+                return num1*num2;
+            }else if(operation==="divide"){
+                return num1/num2;
+            }else{
+                return "Invalid operation";
+            }
+        }
+        document.write("<br>Calculator result: " + calculator(10, 5, "add"));
+        document.write("<br>Calculator result: " + calculator(10, 5, "subtract"));
+        document.write("<br>Calculator result: " + calculator(10, 5, "multiply"));
+        document.write("<br>Calculator result: " + calculator(10, 5, "divide"));
+    </script>
+</body>
+</html>

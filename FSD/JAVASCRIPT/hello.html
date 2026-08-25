@@ -1,0 +1,34 @@
+<!-- Script->Embedded language require another language to run!
+1.document → represents the current webpage
+. → accesses something belonging to document
+write() → a method that writes content into the webpage
+"We are Code!" → the text being written
+document is part of the DOM (Document Object Model).
+The browser converts your HTML into a tree-like structure, and JavaScript uses document to interact with that structure.
+2.Alert->warning message that pops up on the screen
+async-await → allows you to write asynchronous code in a synchronous manner(single-threaded)
+3.console.log=> a method that prints content to the console, which is useful for debugging for developers.
+It allows you to see the output of your code and track down issues.
+console-terminal
+log-logger
+for server manipulation
+4.inner html-> a property that allows you to change the content of an HTML element.
+-->
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+ </head>
+ <body>
+    <p id="ad"></p>
+    <script>
+        
+        document.write("We are Code!");
+      //   alert("Alert!");
+        console.log("Hello World!");
+        document.getElementById("ad").innerHTML = "Hello World!";
+    </script>
+ </body>
+ </html>
