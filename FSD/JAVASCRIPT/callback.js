@@ -3,7 +3,7 @@ function sum(a, b) {
 }
 
 function sumwithMsg(callback,msg) {
-    const result = callback(2, 3);
+    const result = callback(20, 30);
     const fresult="hello "+msg+" the sum is "+result;
     console.log(fresult);
 }
