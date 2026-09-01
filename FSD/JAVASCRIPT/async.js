@@ -9,4 +9,4 @@ console.log("hello ABES");
 // Buttons remain clickable and animations keep smoothly running while data loads in the background.
 // Resource Efficiency: Your server doesn't waste CPU power sitting idle while waiting for database queries or file transfers to finish.
 // Flexibility: It allows you to pass actions around, not just data. You can tell a function:
-//  "Do your job, and when you are done, execute this specific action I just handed you."
+// "Do your job, and when you are done, execute this specific action I just handed you."
