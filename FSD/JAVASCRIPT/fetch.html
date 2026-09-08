@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MY SHOP</title>
+</head>
+<style>
+    table{
+        width: 80%;
+        margin: 20px auto;
+        padding: 10px;
+        font-size: 25px;
+        color:rgb(114, 3, 155);
+        border: 2px solid rgb(56, 3, 75);
+    }
+</style>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th>Serial No.</th>
+                <th>Title</th>
+                <th>Image</th>
+                <th>Category</th>
+                <th>Price</th>
+            </tr>
+        </thead>
+        <tbody id="data">
+
+        </tbody>
+    </table>
+    <script>
+      const ele=document.getElementById("data");
+      const URL="https://dummyjson.com/products";
+      async function fetchData(){
+        try {
+            const response=await fetch(URL);//calling API hence await is used
+            const data=await response.json();//convertor json to object
+            console.log(data.products);
+            let row="";//null string
+            data.products.map((product,index)=>{
+            row+=`<tr>
+                <td>${index+1}</td>
+                <td>${product.title}</td>
+                <td><img src="${product.images[0]}" width="100px" height="100px"></td>
+                <td>${product.category}</td>
+                <td>${product.price}</td>
+            </tr>`;
+           });
+           ele.innerHTML=row;   //printing data in table
+        } catch (error) {
+          console.error('Error fetching data:', error);
+        }
+      }
+      fetchData();
+</script>
+</body>
+
+</html>
