@@ -30,3 +30,6 @@ async function executeFunctions() {
 }
 executeFunctions();
 //call back(hell)->promise()->async await(wait time increases)
+// Callbacks suffer from unreadable nested code ("callback hell") and poor error tracking,
+//  while async/await inherits Promises' structural flaws like immediate execution, lack of native cancellation, 
+//  and an inability to handle live data streams.
