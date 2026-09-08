@@ -4,58 +4,148 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MY SHOP</title>
-</head>
-<style>
-    table{
-        width: 80%;
-        margin: 20px auto;
-        padding: 10px;
-        font-size: 25px;
-        color:rgb(114, 3, 155);
-        border: 2px solid rgb(56, 3, 75);
-    }
-</style>
-<body>
-    <table>
-        <thead>
-            <tr>
-                <th>Serial No.</th>
-                <th>Title</th>
-                <th>Image</th>
-                <th>Category</th>
-                <th>Price</th>
-            </tr>
-        </thead>
-        <tbody id="data">
 
-        </tbody>
-    </table>
-    <script>
-      const ele=document.getElementById("data");
-      const URL="https://dummyjson.com/products";
-      async function fetchData(){
-        try {
-            const response=await fetch(URL);//calling API hence await is used
-            const data=await response.json();//convertor json to object
-            console.log(data.products);
-            let row="";//null string
-            data.products.map((product,index)=>{
-            row+=`<tr>
-                <td>${index+1}</td>
-                <td>${product.title}</td>
-                <td><img src="${product.images[0]}" width="100px" height="100px"></td>
-                <td>${product.category}</td>
-                <td>${product.price}</td>
-            </tr>`;
-           });
-           ele.innerHTML=row;   //printing data in table
-        } catch (error) {
-          console.error('Error fetching data:', error);
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 30px;
+            background-color: #f5f0f7;
         }
-      }
-      fetchData();
-      //fetching data from json
-</script>
-</body>
 
+        h1 {
+            text-align: center;
+            color: rgb(114, 3, 155);
+        }
+
+        /* 3 cards in one row */
+        #data {
+            width: 90%;
+            margin: 20px auto;
+
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 25px;
+        }
+
+        /* Product Card */
+        .card {
+            background-color: white;
+            border: 2px solid rgb(114, 3, 155);
+            border-radius: 15px;
+            padding: 20px;
+            text-align: center;
+
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+
+            transition: 0.3s;
+        }
+
+        .card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25);
+        }
+
+        .card img {
+            width: 150px;
+            height: 150px;
+            object-fit: contain;
+            margin: 10px auto;
+        }
+
+        .serial {
+            color: gray;
+            font-size: 16px;
+        }
+
+        .card h2 {
+            color: rgb(114, 3, 155);
+            font-size: 22px;
+            margin: 10px 0;
+        }
+
+        .category {
+            color: #555;
+            font-size: 18px;
+            margin: 10px;
+        }
+
+        .price {
+            color: rgb(114, 3, 155);
+            font-size: 22px;
+            font-weight: bold;
+        }
+
+        /* Tablet */
+        @media (max-width: 900px) {
+            #data {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+
+        /* Mobile */
+        @media (max-width: 600px) {
+            #data {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>MY SHOP</h1>
+
+    <div id="data"></div>
+
+    <script>
+        const ele = document.getElementById("data");
+        const URL = "https://dummyjson.com/products";
+
+        async function fetchData() {
+            try {
+                const response = await fetch(URL);
+                const data = await response.json();
+
+                let row = "";
+
+                data.products.map((product, index) => {
+
+                    row += `
+                        <div class="card">
+
+                            <div class="serial">
+                                Serial No: ${index + 1}
+                            </div>
+
+                            <img 
+                                src="${product.images[0]}" 
+                                alt="${product.title}"
+                            >
+
+                            <h2>${product.title}</h2>
+
+                            <div class="category">
+                                Category: ${product.category}
+                            </div>
+
+                            <div class="price">
+                                $${product.price}
+                            </div>
+
+                        </div>
+                    `;
+                });
+
+                ele.innerHTML = row;
+
+            } catch (error) {
+                console.error("Error fetching data:", error);
+            }
+        }
+
+        fetchData();
+    </script>
+
+</body>
 </html>
