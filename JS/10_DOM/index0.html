@@ -30,11 +30,11 @@ parent.children[1].style.color="green";
 console.log(parent.firstElementChild);
 console.log(parent.lastElementChild);
 
-const dayone = document.querySelector('.day');//first day
-console.log(dayone);//monday
+const dayone = document.querySelector('.day:nth-child(2)');//second day
+console.log(dayone);//tuesday
 console.log(dayone.parentElement);//parent div
-console.log(dayone.nextElementSibling);//tuesday
-console.log(dayone.previousElementSibling);//null
+console.log(dayone.nextElementSibling);//wednesday
+console.log(dayone.previousElementSibling);//monday
 
     </script>
 </html>

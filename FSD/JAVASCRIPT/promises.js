@@ -5,7 +5,7 @@ function f1(){
         setTimeout(() => {
             console.log("Hello Student");
             resolve();
-        },4000);
+        },2000);
     });
 }
 function f2(){

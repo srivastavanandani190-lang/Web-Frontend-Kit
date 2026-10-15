@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>events</title>
+</head>
+<body>
+    <h1>Welcome to the Events Page</h1>
+    <button id="clickButton">start</button>
+    <button id="clickButton2">stop</button>
+
+</body>
+
+<script>
+    //setInterval and clearInterval type of events.
+    let interval;
+   document.getElementById("clickButton").addEventListener("click", function(){
+       interval = setInterval(function(str){
+            console.log(str,Date.now());
+        },1000,"HEllo");
+    });
+    document.getElementById("clickButton2").addEventListener("click", function(){
+        clearInterval(interval);
+    });
+</script>
+</html>

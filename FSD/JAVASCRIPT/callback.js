@@ -8,8 +8,5 @@ function sumwithMsg(callback,msg) {
     console.log(fresult);
 }
 sumwithMsg(sum, "Alice");
-// Non-blocking execution: Asynchronous functions allow time-consuming tasks to run in the background without
-// freezing the application interface.The async keyword: Preceded before a function name to guarantee it 
-// automatically returns a JavaScript Promise.The await keyword: Pauses code execution inside the specific
-// function until the background task successfully resolves.Unified error handling: Implemented using standard
-// try...catch blocks to capture failures across multiple background steps.
+// callback function: A function passed as an argument to another function, allowing it to be invoked later.
+//It is commonly used for asynchronous operations, event handling, and functional programming patterns.

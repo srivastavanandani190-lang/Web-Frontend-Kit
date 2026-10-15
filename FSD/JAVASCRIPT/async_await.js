@@ -29,7 +29,12 @@ async function executeFunctions() {
     }
 }
 executeFunctions();
+// Non-blocking execution: Asynchronous functions allow time-consuming tasks to run in the background without
+// freezing the application interface.The async keyword: Preceded before a function name to guarantee it 
+// automatically returns a JavaScript Promise.The await keyword: Pauses code execution inside the specific
+// function until the background task successfully resolves.Unified error handling: Implemented using standard
+// try...catch blocks to capture failures across multiple background steps.
 //call back(hell)->promise()->async await(wait time increases)
 // Callbacks suffer from unreadable nested code ("callback hell") and poor error tracking,
 //  while async/await inherits Promises' structural flaws like immediate execution, lack of native cancellation, 
-//  and an inability to handle live data streams.
+//  and an inability to handle live data streams.                          
