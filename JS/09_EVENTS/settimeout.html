@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Document</h1>
+    <button id="clickButton">start</button>
+    <button id="clickButton2">stop</button>
+</body>
+<script>
+    //setTimeout->used to execute a function after a specified delay
+    //clearTimeout->used to cancel the execution of a function that was previously scheduled with setTimeout
+    // Both are timer events.
+    let timeout;
+    document.getElementById("clickButton").addEventListener("click", function(){
+        timeout = setTimeout(function(str){
+            console.log(str,Date.now());
+        },2000,"HEllo");
+    });
+    document.getElementById("clickButton2").addEventListener("click", function(){
+        clearTimeout(timeout);
+    });
+</script>
+</html>
