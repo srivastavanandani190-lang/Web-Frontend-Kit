@@ -13,7 +13,9 @@
 </body>
 
 <script>
-    //setInterval and clearInterval type of events.
+    //setInterval->used to repeatedly execute a function at specified intervals
+    //clearInterval->used to stop the execution of a function that was previously started with setInterval
+    // Both are timer events.
     let interval;
    document.getElementById("clickButton").addEventListener("click", function(){
        interval = setInterval(function(str){
