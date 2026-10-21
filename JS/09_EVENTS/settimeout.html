@@ -23,5 +23,12 @@
     document.getElementById("clickButton2").addEventListener("click", function(){
         clearTimeout(timeout);
     });
+    const changetext = () => {
+        document.querySelector("h1").innerText = "Hello World";
+    }
+    const changeme=setTimeout(changetext, 2000);
+
+    // clearTimeout(changeme);
+
 </script>
 </html>
