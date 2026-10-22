@@ -101,3 +101,14 @@ fetch("https://jsonplaceholder.typicode.com/users")
 .catch(function(error) {
     console.log(error);
 });
+ 
+//The global fetch() method starts the process of fetching a resources from the network
+//,returning a promise which is fulfilled once the response is available.
+ 
+// A fetch() promise does not reject on HTTP error status even if the response is an HTTP 404 or 500.
+//Instead, it will resolve normally (with ok status set to false),
+//and it will only reject on network failure or if anything prevented the request from completing.
+
+//why fetch executed first->microtask queue which is special queue for promises and async await, it has higher priority than the normal task queue which is for setTimeout and setInterval. 
+
+//fetch works on two concept ->browser/node(network requests) ,(reserve space in memory)onfulfilled/onRejection.
