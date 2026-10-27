@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bus Booking System</title>
+
+    <style>
+        body {
+            background-color: white;
+            color: black;
+            margin: 0;
+            padding: 20px;
+            font-size: 17px;
+            font-family: Arial, sans-serif;
+        }
+
+        .container {
+            width: 550px;
+            background-color: rgb(158, 162, 165);
+            margin: 0 auto;
+            padding: 30px;
+            border-radius: 10px;
+            border: 2px solid black;
+        }
+
+        .box {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+
+        .box h1 {
+            font-size: 32px;
+        }
+
+        .img {
+            height: 80px;
+            width: 60px;
+            border-radius: 50%;
+        }
+
+        .submit {
+            width: 150px;
+            height: 45px;
+            background-color: black;
+            color: white;
+            border-radius: 10px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        input,
+        select {
+            font-size: 16px;
+            padding: 5px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="box">
+            <img src="bus.avif" class="img" alt="Bus logo">
+            <h1>BUS BOOKING SYSTEM</h1>
+        </div>
+
+        <h2>User Information</h2>
+
+        <form>
+
+            <label>Name:</label>
+            <input type="text" id="name" placeholder="Enter your name">
+            <br><br>
+
+            <label>Age:</label>
+            <input type="text" id="age" placeholder="Enter your age">
+            <br><br>
+
+            <label>Adhar Number:</label>
+            <input type="text" id="adhar" placeholder="Enter your Adhar number">
+            <br><br>
+
+            <label>Select City:</label>
+
+            <select id="city" title="Select your destination city">
+                <option value="">-- Select a city --</option>
+                <option value="Delhi">Delhi</option>
+                <option value="Mumbai">Mumbai</option>
+                <option value="Bangalore">Bangalore</option>
+            </select>
+
+            <br><br>
+
+            <label>Journey Date:</label>
+            <input type="date" id="journey" title="Select your journey date" placeholder="Select your journey date">
+
+            <br><br>
+
+            <h2>BUS INFORMATION</h2>
+
+            <label>Select Bus Type:</label>
+            <br>
+
+            <input type="radio" id="ac" name="bus" value="AC">
+            <label for="ac">AC Bus 2000</label>
+
+            <br>
+
+            <input type="radio" id="non-ac" name="bus" value="Non-AC">
+            <label for="non-ac">Non-AC Bus 1500</label>
+
+            <br><br>
+
+            <label>Number of Seats:</label>
+
+            <select id="seats" title="Select number of seats">
+                <option value="">-- Select number of seats --</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+            </select>
+
+            <br><br>
+
+            <!-- IMPORTANT -->
+            <input type="button"
+                   value="Buy Now"
+                   class="submit"
+                   onclick="calculateTotal()">
+
+        </form>
+
+    </div>
+
+
+    <script>
+
+        function calculateTotal() {
+
+            // Get form values
+            let name = document.getElementById("name").value;
+            let age = document.getElementById("age").value;
+            let adhar = document.getElementById("adhar").value;
+            let city = document.getElementById("city").value;
+            let journey = document.getElementById("journey").value;
+            let seats = document.getElementById("seats").value;
+
+            // Check bus type
+            let busType;
+            let price;
+
+            if (document.getElementById("ac").checked) {
+
+                busType = "AC Bus";
+                price = 2000;
+
+            } else if (document.getElementById("non-ac").checked) {
+
+                busType = "Non-AC Bus";
+                price = 1500;
+
+            } else {
+
+                alert("Please select a bus type.");
+                return;
+
+            }
+
+            // Check seats
+            if (seats == "") {
+
+                alert("Please select number of seats.");
+                return;
+
+            }
+
+            // Calculate total
+            let total = price * Number(seats);
+
+
+            // Display using document.write()
+            document.open();
+
+            document.write(`
+            
+                <!DOCTYPE html>
+
+                <html>
+
+                <head>
+
+                    <title>Booking Details</title>
+
+                    <style>
+
+                        body {
+                            font-family: Arial, sans-serif;
+                            background-color: white;
+                            padding: 30px;
+                        }
+
+                        .details {
+                            width: 500px;
+                            margin: 50px auto;
+                            padding: 30px;
+                            background-color: rgb(158, 162, 165);
+                            border: 2px solid black;
+                            border-radius: 10px;
+                        }
+
+                        h2 {
+                            text-align: center;
+                            font-size: 28px;
+                        }
+
+                        p {
+                            font-size: 18px;
+                            padding: 5px;
+                        }
+
+                        .total {
+                            font-size: 22px;
+                            font-weight: bold;
+                        }
+
+                    </style>
+
+                </head>
+
+
+                <body>
+
+                    <div class="details">
+
+                        <h2>Booking Details</h2>
+
+                        <p>
+                            <b>Name:</b> ${name}
+                        </p>
+
+                        <p>
+                            <b>Age:</b> ${age}
+                        </p>
+
+                        <p>
+                            <b>Adhar Number:</b> ${adhar}
+                        </p>
+
+                        <p>
+                            <b>City:</b> ${city}
+                        </p>
+
+                        <p>
+                            <b>Journey Date:</b> ${journey}
+                        </p>
+
+                        <p>
+                            <b>Bus Type:</b> ${busType}
+                        </p>
+
+                        <p>
+                            <b>Number of Seats:</b> ${seats}
+                        </p>
+
+                        <p class="total">
+                            Total Cost: ₹${total}
+                        </p>
+
+                    </div>
+
+                </body>
+
+                </html>
+
+            `);
+
+            document.close();
+        }
+
+    </script>
+
+</body>
+
+</html>
